@@ -30,7 +30,7 @@ jobs:
         run: |
           echo "${{ secrets.TESTREAL }}" > data/ground_truth.csv
           echo "Ground truth first line:"
-          head -1 ground_truth.csv
+          head -1 data/ground_truth.csv
 
       # 5️⃣ Debug - list files
       - name: List files
@@ -43,7 +43,7 @@ jobs:
           ls submissions/
           for file in submissions/*.csv; do
             echo "Scoring $file"
-            python scoring_script.py "$file" ground_truth.csv
+            python scoring_script.py "$file" data/ground_truth.csv
           done
 
       # 7️⃣ Update leaderboard
