@@ -106,10 +106,14 @@ Your submissions will be evaluated on the test set using the overall classificat
 ## 🏆 Winning Criteria
 The winner will be determined by the submission that achieves the best average rank across all three metrics.
 ###  Submission Process
+
 1. Fork this repository
 2. Add your predictions: `submissions/submission_<username>.csv`
-3. Create Pull Request with title: `Submission: <username>`
-4. Leaderboard updated within 24 hours
+3. Create Pull Request:
+   *Base : Main
+   *Name Submission: <your_username>
+   *Compare: your fork/branch with the submission file
+5. Leaderboard updated within 24 hours
 
 Good luck, and may the best aggregation strategy win! 
 ## Resources
