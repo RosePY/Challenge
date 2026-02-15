@@ -6,7 +6,7 @@ For most neural networks, classification tasks are made individually based on th
 
 **Graph Neural Networks (GNNs)** fundamentally alter this paradigm by performing **collective decision making**. Rather than relying solely on the representation (embedding) of an individual node, the classification decision is influenced by the structure of the graph and by aggregated information from neighboring nodes.
 
-We apply this concept in Cancer biology! A cell's environment can give misleading cues — e.g., a malignant cell might “look normal” in isolation, or neighboring immune cells might influence its signaling,the node’s own features (gene expression) might conflict with neighborhood information (similar cells in the microenvironment), mimicking real biological “contradictions.”
+
 
 ### 💡 The Core Question
 
@@ -19,7 +19,7 @@ We apply this concept in Cancer biology! A cell's environment can give misleadin
 
 In this challenge, the goal is to implement mechanisms that balance these two sources of information that might contradict each other. Node features are manually corrupted, while graph connectivity encodes contextual relationships that may either reinforce or contradict a node's individual features.
 
-We apply this concept in Cancer biology! A cell's environment can give misleading cues — e.g., a malignant cell might “look normal” in isolation, or neighboring immune cells might influence its signaling,the node’s own features (gene expression) might conflict with neighborhood information (similar cells in the microenvironment), mimicking real biological “contradictions.”
+We apply this concept in Cancer biology! A cell's environment can give misleading cues , a malignant cell might “look normal” in isolation, or neighboring immune cells might influence its signaling,the node’s own features (gene expression) might conflict with neighborhood information (similar cells in the microenvironment), mimicking real biological “contradictions.”
 
 Participants must adapt GNN models using techniques such as **neighborhood sampling** and **aggregation** to learn when to trust the node embedding, when to trust the neighborhood, and how to effectively combine both in order to perform node classification and detect the cancerous cells.
 
