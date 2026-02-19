@@ -46,3 +46,4 @@ function sortTable(colIndex) {
 
 // Load leaderboard on page load
 loadLeaderboard();
+setInterval(loadLeaderboard,30000)
