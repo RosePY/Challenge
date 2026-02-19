@@ -63,18 +63,13 @@ As for this task, we have altered samples from this data to present it for a  GN
 - **NOT available in `test.csv`** (this is what you need to test on)
 
 ### 📁 **Data Files**
-- **`train.npz`** - Contains features AND corruption mask(part1)
+- **`train.npz`** - Contains features AND corruption mask.
 - **`test.csv`** - Contains features only (no labels, no mask)
 - **`labels.csv`** - Contains labels for the full training data
 - **`edges.csv`** - Describes the communication between the cells
-  For dimentions issues we split the training data features in two , you would find additional code to help you import the data as a dataframe.
+Please review the baseline code to help you better navigate the data.
 ---
 
-##  Example Techniques
-
-You can use the notebook in baseline as your starting point! It is a simple example solution  that I made!
-We want the GNN to  learn when to rely on a node’s own features versus its neighbors’ right ?. An example of a solution is a trainable gate mechanism that dynamically balances these two signals, adapting to potential feature corruption without modifying the fixed embeddings. The model is trained on the provided graph and features, then predicts on test data using the same adaptive trust logic.
-You can use the same GNN as your baseline model , same for the training loop , get creative with your aggregation mecanism!
 
 ---
 
