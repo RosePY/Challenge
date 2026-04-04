@@ -4,6 +4,7 @@
 | submission_sanae | 0.9872 |
 | submission_samuel | 0.9840 |
 | submission_emmanuel_owusu | 0.9606 |
+| submission_Murad | 0.9330 |
 | submission_AiIkram | 0.8266 |
 | submission_Muhammad_Isah | 0.7628 |
 | submission_faranbutt | 0.7606 |
